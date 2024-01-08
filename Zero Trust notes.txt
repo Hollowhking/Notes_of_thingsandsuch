@@ -1,0 +1,42 @@
+Zero trust notes:
+Questions:
+! -> what is an example of building azero trust archetecture and what is the process
+
+
+Zero trust is a concept that at every possible chance a SUBJECT has to be checked and ensured that are 
+allowed to access a RESOURCE.
+
+There are 3 Foundations within zero trust:
+- Automation and Orchestration:
+	The automatic enforcement of policies and protections in all the pillars.
+	The consitant, predictable and reliable delivery of resourses.
+- Visibility and Analysis:
+	The pillars are all visible and analysed consistantly.
+- Governance and culture:
+	The knowledge of the zero trust environment
+
+There are 5 pillars within zero trust:
+-Data:
+	This is the RESOURCES. whether that be an api, or just standard data files.
+-Identity and devices:
+	This is the Subject. They have certain authorizations.
+-Networks and environments: 
+	Policies that govern the network and implement changes.
+-Applications and Workloads:
+	Policies that support the sys dev lifecycle that ensure a zero trust creation of a resource.
+
+Levels within the zero trust Maturity Model:
+Initial 0-> The initiative is undocumented and performed on an as needed bases with processes undefined. 
+Basic 1-> The process is documented and predictably repeatable.Processes for success have been defined and documented
+Intermediate 2-> Process are monitored and efficacy is measurable
+Advanced 3-> Focues is on continuous optimization
+
+The 5 step cycle when building a program you want to follow zero trust.
+1. Define Protect surface: The protect surface is a catalog of all assets contains a single; data, applications, assets, and services element
+(There also exists an Attack surface which is a catalog of all possible avenues of attack)
+2. Classify and map transaction flows; the DASS(data, applications, assets, services) and the end to end handling of that daas. the higher the percentage of instrumented and validated traffic flows the better.
+3. Build the zero trust archetecture, !
+4. Create zero trust policy, use 5w + 1h: Who should have access to the resourse, What application can the subject use to access the resource, 
+When is the subject able to access the resource, where is the resource, Why is the subject allowed to acess that data, How should traffic be processed as it acesses the resource.
+5. Monitor and Maintain the archeteture 
+
